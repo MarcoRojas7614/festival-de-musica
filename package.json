@@ -4,7 +4,7 @@
   "description": "Aprendiendo SAS Y NPM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass src/scss:dist/css"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "url": "https://github.com/MarcoRojas7614/festival-de-musica/issues"
   },
   "homepage": "https://github.com/MarcoRojas7614/festival-de-musica#readme",
-  "dependencies": {
+  "devDependencies": {
     "sass": "^1.92.0"
   }
 }
